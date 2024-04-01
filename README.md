@@ -14,4 +14,11 @@ annotations = pd.read_table('results_20130124.token', sep='\t', header=None,
                             names=['image', 'caption'])
 print(annotations['caption'])
 ```
-* 
+### CLIP 
+* Text part: use DistilBert to get the text feature
+* Image part: use resnet50 to get the image feature
+### CoOp
+* automatically adjust the prompt vector embedding base on 'a photo of' (here as an example). 
+# TODO
+* add CoCoOp part the enhance the generalization ability of CoOp
+* use Open-AI Official API to get better baseline of CLIP 
