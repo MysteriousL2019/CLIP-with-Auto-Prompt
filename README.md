@@ -25,5 +25,6 @@ print(annotations['caption'])
 * the input is a Template 'a photo of a {class}', we convert the first four characters into $[v_1][v_2][v_3][v4]{class} $ and train that vecotor to find out the best prompt template for dataset.
 ![Alt text](https://github.com/MysteriousL2019/CLIP-with-Auto-Prompt/blob/main/vectors.jpg)
 # TODO
-* add CoCoOp part the enhance the generalization ability of CoOp
-* use Open-AI Official API to get better baseline of CLIP 
+<!-- * add CoCoOp part the enhance the generalization ability of CoOp -->
+<!-- * use Open-AI Official API to get better baseline of CLIP  -->
+* Find a specific application of this CoCoOp as a automatically prompt engineering
